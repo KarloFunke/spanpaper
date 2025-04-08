@@ -76,7 +76,7 @@ monitors = [
         "size_in": 27.0,
         "aspect_w": 16,
         "aspect_h": 9,
-        "offset_bottom": 4.0
+        "offset_bottom": 0.75
     }
 ]
 
