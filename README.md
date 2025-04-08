@@ -6,7 +6,7 @@ It calculates your real-world monitor layout, slices the image accordingly, and 
 
 ## Requirements
 
-- Linux system (tested only on Ubuntu 24.04)
+- Linux system using GNOME (tested only on Ubuntu 24.04)
 - Python 3
 - pip (Python package installer)
 - Pillow library
