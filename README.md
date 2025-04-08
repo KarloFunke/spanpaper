@@ -41,3 +41,21 @@ To apply the wallpaper:
 2. Go to Appearance > Background
 3. Set the image to the generated wallpaper
 4. Set Adjustment to **Spanned**
+
+## Example
+
+Here's a full example showing how the script transforms a wallpaper image to span across multiple monitors.
+
+**Original image:**
+
+![Original wallpaper](images/original.jpg)
+
+**Transformed by spanpaper into:**
+
+![Transformed output](images/transformed.jpg)
+
+**Transformed result applied on my cursed multi-monitor setup:**
+
+![Setup result](images/setup.jpg)
+
+_Image used from [Unsplash](https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-c8lfnNZyGFg) by Simon Gamma._
