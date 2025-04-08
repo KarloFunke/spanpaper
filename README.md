@@ -42,6 +42,11 @@ To apply the wallpaper:
 3. Set the image to the generated wallpaper
 4. Set Adjustment to **Spanned**
 
+⚠️⚠️⚠️ IMPORTANT: In "Displays" settings, all monitor bottoms should be aligned!
+Even if a monitor is physically higher, leave them aligned in the OS.
+Why? Because where the mouse lands is quite cursed anyway — may as well go full cursed
+and the wallpaper wont work anymore if not bottom aligned.
+
 ## Example
 
 Here's a full example showing how the script transforms a wallpaper image to span across multiple monitors.
