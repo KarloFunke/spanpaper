@@ -6,14 +6,13 @@ It calculates your real-world monitor layout, slices the image accordingly, and 
 
 ## Requirements
 
-- Linux system using GNOME (tested only on Ubuntu 24.04)
+- Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME, KDE, XFCE)
 - Python 3
-- pip (Python package installer)
 - Pillow library
 
 ## Setup
 
-1. Download the `create_wallpaper.py` script or clone the Repo.
+1. Download the `create_wallpaper.py` script or clone the repo.
 2. Install the required library:
 
    ```bash
@@ -35,17 +34,28 @@ python3 create_wallpaper.py your_input_image.whatever_format_you_have output_ima
 
 Replace `your_input_image.whatever_format_you_have` with the path to your wallpaper. The generated wallpaper will be saved as `output_image_path.png`.
 
-To apply the wallpaper:
+### Applying the wallpaper
 
+**GNOME:**
 1. Open GNOME Tweaks
 2. Go to Appearance > Background
 3. Set the image to the generated wallpaper
 4. Set Adjustment to **Spanned**
 
-⚠️⚠️⚠️ IMPORTANT: In "Displays" settings, all monitor bottoms should be aligned!
-Even if a monitor is physically higher, leave them aligned in the OS.
-Why? Because where the mouse lands is quite cursed anyway — may as well go full cursed
-and the wallpaper wont work anymore if not bottom aligned.
+**KDE Plasma:**
+1. Open System Settings > Desktop
+2. Set the wallpaper to the generated image
+3. Choose **Wallpaper Style: Span Across All Displays** (or similar, depending on your version)
+
+**XFCE:**
+1. Right-click the desktop and choose **Desktop Settings**
+2. Select the generated wallpaper
+3. Set the style to **Span**
+
+⚠️⚠️⚠️ IMPORTANT: In "Displays" settings, all monitor bottoms should be aligned!  
+Even if a monitor is physically higher, leave them aligned in the OS.  
+Why? Because where the mouse lands is quite cursed anyway — may as well go full cursed.  
+Also, the wallpaper won’t line up correctly if they are not bottom-aligned.
 
 ## Example
 
@@ -64,3 +74,4 @@ Here's a full example showing how the script transforms a wallpaper image to spa
 ![Setup result](images/setup.jpg)
 
 _Image used from [Unsplash](https://unsplash.com/photos/a-scenic-view-of-a-lake-surrounded-by-mountains-c8lfnNZyGFg) by Simon Gamma._
+
