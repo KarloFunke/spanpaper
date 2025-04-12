@@ -4,7 +4,7 @@ create_wallpaper.py
 This script slices and scales a high-resolution wallpaper image to span seamlessly across multiple monitors,
 even if they have different physical sizes, resolutions, scaling factors, and vertical offsets.
 
-Works for Linux setups with multiple displays, especially when using desktop environments that support "spanned" wallpapers (e.g., GNOME, KDE, XFCE).
+Works for Linux setups with multiple displays, especially when using desktop environments that support "spanned" wallpapers (e.g., GNOME, KDE).
 
 USAGE:
     python create_wallpaper.py <input_image> <output_image>
