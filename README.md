@@ -6,7 +6,7 @@ It calculates your real-world monitor layout, slices the image accordingly, and 
 
 ## Requirements
 
-- Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME, KDE, XFCE)
+- Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME, KDE)
 - Python 3
 - Pillow library
 
@@ -46,11 +46,6 @@ Replace `your_input_image.whatever_format_you_have` with the path to your wallpa
 1. Open System Settings > Desktop
 2. Set the wallpaper to the generated image
 3. Choose **Wallpaper Style: Span Across All Displays** (or similar, depending on your version)
-
-**XFCE:**
-1. Right-click the desktop and choose **Desktop Settings**
-2. Select the generated wallpaper
-3. Set the style to **Span**
 
 ⚠️⚠️⚠️ IMPORTANT: In "Displays" settings, all monitor bottoms should be aligned!  
 Even if a monitor is physically higher, leave them aligned in the OS.  
