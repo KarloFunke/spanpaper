@@ -1,10 +1,10 @@
 """
 create_wallpaper.py
 
-This script takes a high-resolution wallpaper image and slices it to fit across multiple monitors,
-each with its own physical size, resolution, scaling factor, and vertical offset.
+This script slices and scales a high-resolution wallpaper image to span seamlessly across multiple monitors,
+even if they have different physical sizes, resolutions, scaling factors, and vertical offsets.
 
-Ideal for Linux (e.g., Ubuntu) setups with multiple displays that have different sizes, resolutions, DPI or alignment.
+Works for Linux setups with multiple displays, especially when using desktop environments that support "spanned" wallpapers (e.g., GNOME, KDE, XFCE).
 
 USAGE:
     python create_wallpaper.py <input_image> <output_image>
@@ -13,20 +13,13 @@ DEPENDENCIES:
     pip install pillow
 
 HOW IT WORKS:
-- You define your monitor layout (left to right) in the script.
-- The script calculates the physical layout, crops and scales your image accordingly,
-  and generates a combined wallpaper image that fits perfectly across all screens.
+- Define your monitor layout (from left to right) at the top of this script.
+- The script calculates the physical layout, crops and scales the image accordingly,
+  and outputs a combined wallpaper image that aligns perfectly across all screens.
 
-FINAL STEP:
-To use the generated wallpaper, apply it using GNOME Tweaks:
-    ➤ sudo apt install gnome-tweaks
-    ➤ Open GNOME Tweaks → Appearance → Background
-    ➤ Select the generated wallpaper as Image
-    ➤ Set 'Adjustment' to 'Spanned'
-
-Author: https://github.com/KarloFunke
+For how to apply the generated wallpaper in your desktop environment, visit:
+    https://github.com/KarloFunke/spanpaper
 """
-
 
 import sys
 from math import sqrt
