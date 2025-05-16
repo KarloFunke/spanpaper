@@ -4,6 +4,11 @@
 
 It calculates your real-world monitor layout, slices the image accordingly, and combines it into one wallpaper that fits perfectly across all screens.
 
+## Online Version
+
+You can now use spanpaper directly in your browser without downloading anything!  
+Visit **[karl-funke.com/spanpaper](https://karl-funke.com/spanpaper)** to create perfectly spanning wallpapers through the web interface.
+
 ## Requirements
 
 - Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME, KDE)
