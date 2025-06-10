@@ -11,7 +11,7 @@ Visit **[karl-funke.com/spanpaper](https://karl-funke.com/spanpaper)** to create
 
 ## Requirements
 
-- Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME, KDE)
+- Linux system with a desktop environment that supports "spanned" wallpapers (e.g., GNOME)
 - Python 3
 - Pillow library
 
@@ -46,11 +46,6 @@ Replace `your_input_image.whatever_format_you_have` with the path to your wallpa
 2. Go to Appearance > Background
 3. Set the image to the generated wallpaper
 4. Set Adjustment to **Spanned**
-
-**KDE Plasma:**
-1. Open System Settings > Desktop
-2. Set the wallpaper to the generated image
-3. Choose **Wallpaper Style: Span Across All Displays** (or similar, depending on your version)
 
 ⚠️⚠️⚠️ IMPORTANT: In "Displays" settings, all monitor bottoms should be aligned!  
 Even if a monitor is physically higher, leave them aligned in the OS.  
